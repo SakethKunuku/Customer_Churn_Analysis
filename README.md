@@ -2,7 +2,7 @@
 
 A Machine learning-based system to predict customer churn and provide actionable insights for customer retention. Built with XGBoost, Streamlit, and explainability tools, this project helps businesses proactively reduce churn risk.
 
-🚀 Features
+🚀 Features 
 Churn Prediction: Predict whether a customer is likely to churn.
 Probability Output: Displays churn likelihood as a percentage.
 Key Driver Analysis: Understand which features most influence churn using:
