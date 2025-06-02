@@ -1,0 +1,257 @@
+digraph {
+    graph [ rankdir=TB ]
+
+    0 [ label="Age<0.298877269" ]
+    0 -> 1 [label="yes" color="#FF0000"]
+    0 -> 2 [label="no, missing" color="#0000FF"]
+
+    1 [ label="NumOfProducts<0.349534392" ]
+    1 -> 3 [label="yes" color="#FF0000"]
+    1 -> 4 [label="no, missing" color="#0000FF"]
+
+    3 [ label="NumOfProducts<0.333333343" ]
+    3 -> 7 [label="yes" color="#FF0000"]
+    3 -> 8 [label="no, missing" color="#0000FF"]
+
+    7 [ label="NumOfProducts<0.0125656724" ]
+    7 -> 15 [label="yes" color="#FF0000"]
+    7 -> 16 [label="no, missing" color="#0000FF"]
+
+    15 [ label="Age<0.216624394" ]
+    15 -> 31 [label="yes" color="#FF0000"]
+    15 -> 32 [label="no, missing" color="#0000FF"]
+
+    31 [ label="Geography_France" ]
+    31 -> 53 [label="yes" color="#FF0000"]
+    31 -> 54 [label="no, missing" color="#0000FF"]
+
+    53 [ label="leaf=-0.171129227" ]
+
+    54 [ label="leaf=-0.385507256" ]
+
+    32 [ label="Geography_Germany" ]
+    32 -> 55 [label="yes" color="#FF0000"]
+    32 -> 56 [label="no, missing" color="#0000FF"]
+
+    55 [ label="leaf=-0.0923465118" ]
+
+    56 [ label="leaf=0.188095242" ]
+
+    16 [ label="leaf=0.584516168" ]
+
+    8 [ label="Balance<0.336545289" ]
+    8 -> 17 [label="yes" color="#FF0000"]
+    8 -> 18 [label="no, missing" color="#0000FF"]
+
+    17 [ label="Tenure<0.0548634306" ]
+    17 -> 33 [label="yes" color="#FF0000"]
+    17 -> 34 [label="no, missing" color="#0000FF"]
+
+    33 [ label="CreditScore<0.655381382" ]
+    33 -> 57 [label="yes" color="#FF0000"]
+    33 -> 58 [label="no, missing" color="#0000FF"]
+
+    57 [ label="leaf=-0.527272761" ]
+
+    58 [ label="leaf=-0.200000018" ]
+
+    34 [ label="leaf=-0.556215227" ]
+
+    18 [ label="Age<0.216624394" ]
+    18 -> 35 [label="yes" color="#FF0000"]
+    18 -> 36 [label="no, missing" color="#0000FF"]
+
+    35 [ label="CreditScore<0.398000002" ]
+    35 -> 59 [label="yes" color="#FF0000"]
+    35 -> 60 [label="no, missing" color="#0000FF"]
+
+    59 [ label="leaf=-0.366233766" ]
+
+    60 [ label="leaf=-0.511764705" ]
+
+    36 [ label="Gender_Female" ]
+    36 -> 61 [label="yes" color="#FF0000"]
+    36 -> 62 [label="no, missing" color="#0000FF"]
+
+    61 [ label="leaf=-0.411678821" ]
+
+    62 [ label="leaf=-0.166956514" ]
+
+    4 [ label="Balance<0.0199222099" ]
+    4 -> 9 [label="yes" color="#FF0000"]
+    4 -> 10 [label="no, missing" color="#0000FF"]
+
+    9 [ label="EstimatedSalary<0.650211453" ]
+    9 -> 19 [label="yes" color="#FF0000"]
+    9 -> 20 [label="no, missing" color="#0000FF"]
+
+    19 [ label="Age<0.244101331" ]
+    19 -> 37 [label="yes" color="#FF0000"]
+    19 -> 38 [label="no, missing" color="#0000FF"]
+
+    37 [ label="HasCrCard_0" ]
+    37 -> 63 [label="yes" color="#FF0000"]
+    37 -> 64 [label="no, missing" color="#0000FF"]
+
+    63 [ label="leaf=-0.360000014" ]
+
+    64 [ label="leaf=0.0545454584" ]
+
+    38 [ label="EstimatedSalary<0.461772263" ]
+    38 -> 65 [label="yes" color="#FF0000"]
+    38 -> 66 [label="no, missing" color="#0000FF"]
+
+    65 [ label="leaf=0.400000036" ]
+
+    66 [ label="leaf=-0.150000006" ]
+
+    20 [ label="leaf=0.466666698" ]
+
+    10 [ label="EstimatedSalary<0.942564368" ]
+    10 -> 21 [label="yes" color="#FF0000"]
+    10 -> 22 [label="no, missing" color="#0000FF"]
+
+    21 [ label="leaf=0.578280568" ]
+
+    22 [ label="leaf=-0" ]
+
+    2 [ label="NumOfProducts<0.333333343" ]
+    2 -> 5 [label="yes" color="#FF0000"]
+    2 -> 6 [label="no, missing" color="#0000FF"]
+
+    5 [ label="IsActiveMember_0" ]
+    5 -> 11 [label="yes" color="#FF0000"]
+    5 -> 12 [label="no, missing" color="#0000FF"]
+
+    11 [ label="Age<0.540540516" ]
+    11 -> 23 [label="yes" color="#FF0000"]
+    11 -> 24 [label="no, missing" color="#0000FF"]
+
+    23 [ label="Geography_Germany" ]
+    23 -> 39 [label="yes" color="#FF0000"]
+    23 -> 40 [label="no, missing" color="#0000FF"]
+
+    39 [ label="Balance<0.227251872" ]
+    39 -> 67 [label="yes" color="#FF0000"]
+    39 -> 68 [label="no, missing" color="#0000FF"]
+
+    67 [ label="leaf=0.383661985" ]
+
+    68 [ label="leaf=0.0727272779" ]
+
+    40 [ label="Balance<0.346627504" ]
+    40 -> 69 [label="yes" color="#FF0000"]
+    40 -> 70 [label="no, missing" color="#0000FF"]
+
+    69 [ label="leaf=-0.257142872" ]
+
+    70 [ label="leaf=0.447358161" ]
+
+    24 [ label="NumOfProducts<0.0125656724" ]
+    24 -> 41 [label="yes" color="#FF0000"]
+    24 -> 42 [label="no, missing" color="#0000FF"]
+
+    41 [ label="Age<0.619974613" ]
+    41 -> 71 [label="yes" color="#FF0000"]
+    41 -> 72 [label="no, missing" color="#0000FF"]
+
+    71 [ label="leaf=-0.0992805734" ]
+
+    72 [ label="leaf=-0.376744211" ]
+
+    42 [ label="leaf=0.473684251" ]
+
+    12 [ label="Age<0.378827244" ]
+    12 -> 25 [label="yes" color="#FF0000"]
+    12 -> 26 [label="no, missing" color="#0000FF"]
+
+    25 [ label="Age<0.310810804" ]
+    25 -> 43 [label="yes" color="#FF0000"]
+    25 -> 44 [label="no, missing" color="#0000FF"]
+
+    43 [ label="leaf=0.576237679" ]
+
+    44 [ label="Age<0.313531369" ]
+    44 -> 73 [label="yes" color="#FF0000"]
+    44 -> 74 [label="no, missing" color="#0000FF"]
+
+    73 [ label="leaf=-0.00540540554" ]
+
+    74 [ label="leaf=0.37572819" ]
+
+    26 [ label="Age<0.716216207" ]
+    26 -> 45 [label="yes" color="#FF0000"]
+    26 -> 46 [label="no, missing" color="#0000FF"]
+
+    45 [ label="EstimatedSalary<0.0161176398" ]
+    45 -> 75 [label="yes" color="#FF0000"]
+    45 -> 76 [label="no, missing" color="#0000FF"]
+
+    75 [ label="leaf=0.0857142955" ]
+
+    76 [ label="leaf=0.537747443" ]
+
+    46 [ label="leaf=-0" ]
+
+    6 [ label="NumOfProducts<0.349534392" ]
+    6 -> 13 [label="yes" color="#FF0000"]
+    6 -> 14 [label="no, missing" color="#0000FF"]
+
+    13 [ label="Balance<0.0199222099" ]
+    13 -> 27 [label="yes" color="#FF0000"]
+    13 -> 28 [label="no, missing" color="#0000FF"]
+
+    27 [ label="IsActiveMember_0" ]
+    27 -> 47 [label="yes" color="#FF0000"]
+    27 -> 48 [label="no, missing" color="#0000FF"]
+
+    47 [ label="CreditScore<0.31400001" ]
+    47 -> 77 [label="yes" color="#FF0000"]
+    47 -> 78 [label="no, missing" color="#0000FF"]
+
+    77 [ label="leaf=-0.234782621" ]
+
+    78 [ label="leaf=-0.537874699" ]
+
+    48 [ label="Age<0.419688582" ]
+    48 -> 79 [label="yes" color="#FF0000"]
+    48 -> 80 [label="no, missing" color="#0000FF"]
+
+    79 [ label="leaf=-0.413592249" ]
+
+    80 [ label="leaf=-0" ]
+
+    28 [ label="Age<0.353405237" ]
+    28 -> 49 [label="yes" color="#FF0000"]
+    28 -> 50 [label="no, missing" color="#0000FF"]
+
+    49 [ label="Age<0.310227752" ]
+    49 -> 81 [label="yes" color="#FF0000"]
+    49 -> 82 [label="no, missing" color="#0000FF"]
+
+    81 [ label="leaf=0.4909091" ]
+
+    82 [ label="leaf=-0.278400004" ]
+
+    50 [ label="IsActiveMember_0" ]
+    50 -> 83 [label="yes" color="#FF0000"]
+    50 -> 84 [label="no, missing" color="#0000FF"]
+
+    83 [ label="leaf=-0.110588245" ]
+
+    84 [ label="leaf=0.320689678" ]
+
+    14 [ label="Age<0.659195125" ]
+    14 -> 29 [label="yes" color="#FF0000"]
+    14 -> 30 [label="no, missing" color="#0000FF"]
+
+    29 [ label="leaf=0.585454583" ]
+
+    30 [ label="EstimatedSalary<0.467743576" ]
+    30 -> 51 [label="yes" color="#FF0000"]
+    30 -> 52 [label="no, missing" color="#0000FF"]
+
+    51 [ label="leaf=-0.150000006" ]
+
+    52 [ label="leaf=0.360000014" ]
+}
